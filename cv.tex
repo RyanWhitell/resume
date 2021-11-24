@@ -1,0 +1,71 @@
+% !TEX TS-program = luatex
+\documentclass{cv}
+\name{RYAN}{WHITELL}
+\tagline{Software Engineer}
+
+\socialinfo{
+	\smartphone{(206) 512-5204}
+	\email{whitellryan@gmail.com}
+	\linkedin{ryanwhitell}
+	\github{ryanwhitell}\\
+	\address{Seattle, Washington}
+}
+
+\begin{document}
+	\makecvheader
+
+	\par{
+		Current Software Development Engineer II at Prime Gaming. My master's thesis was an exploration of machine learning (mostly deep learning) for music recommendation. My technical interests mainly involve around working with data; things like telemetry, customer insights, metric pipelines, UX experimentation, and the infrastructure that supports production ML models- especially recommendation systems. I love working on products related to music or gaming. Fun fact: I am a former professional hockey player.
+	}
+
+	\bigskip
+	
+	\sectionTitle{Experience}
+	\begin{experiences_env}
+		\experienceWithProjects
+			{Current}       {Amazon}{SDE II}
+			{May 2019}      {
+								Leading or participating in all phases of software development at Prime Gaming. Heavily involved in the hiring process. Mentoring interns and new-hires. Occasionally responsible for responding to high-severity, customer facing issues while on call. Consulting or leading large cross-team projects at Prime Gaming- especially in the domains of analytics, telemetry, experimentation, and ML infrastructure.
+							}
+							{Java, AWS, React, GraphQL}
+							{
+								\begin{itemize}
+									\item \textbf{\textsc{Fiber:}} Independently identified problems with the metrics reporting system and advocated for its re-architecture as a priority for Prime Gaming. Redesigned the system by working backwards from multiple stakeholders. Successfully lead the development effort of ``Phase 1" with 3 SDEs and 3 Data Engineers. One key success metric to highlight is the 100\% reduction of development hours needed when changing the customer event metric by using a semi-structured data model. ``Phase 1" laid the groundwork for a broader analytics improvement effort at Prime Gaming by solving the architectural bottlenecks which stifled innovation.
+									\item \textbf{\textsc{Recommendation at Prime Gaming:}} Designed a high-level overview of the technical infrastructure needed to power production ready, customer facing machine learning models at Prime Gaming. Cleared up technical ambiguities and made recommendations to leaders regarding existing architecture integrations, timelines, and new team compositions. This work has helped pushed the idea through funding and into pre-development.
+									\item \textbf{\textsc{Pixel Management:}} Designed and implemented a system for content managers to schedule tracking pixels on gaming.amazon.com. Self-service pixel management empowered the performance marketing team to utilize intelligent re-targeting methods to build personalized ads for customers. This improved Return on Ad Spend (RoAS) and saved millions in advertising costs per year.
+								\end{itemize}
+							}
+		\emptySeparator
+		\experienceWithoutProjects
+			{January 2019}  {ShipConstructor}{Software Developer}
+			{June 2017}     {
+								Worked on a database-driven, Autodesk based shipbuilding and 3D modeling application used by naval architects and marine engineers. Employed on the database team curating the data layer using C/C++, C\# (.NET), and T-SQL (Microsoft SQL Server) in an agile environment. Directly involved in client database performance improvement efforts.
+							}
+							{SQL, Microsoft SQL Server, C, C++, C\#, .NET}
+		\emptySeparator
+	\end{experiences_env}
+
+	\sectionTitle{Education}
+	\begin{education_env}
+		\education
+		{Regis University}{2017 - 2019}
+		{Master of Science (M.S.), Software Engineering}{4.0}
+		{\website{https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Grtp_AsAAAAJ&citation_for_view=Grtp_AsAAAAJ:QIV2ME_5wuYC}{Thesis}}
+					
+		\education
+		{Regis University}{2015 - 2017}
+		{Bachelor of Science (B.S.), Computer Science}{3.99}
+		{Completed the degree online while playing professional hockey.}
+
+		\education
+		{Norwich University}{2013 - 2015}
+		{Bachelor of Science (B.S.), Electrical and Computer Engineering}{3.95}
+		{Note: Transferred into Regis University with one academic year remaining and did not obtain the degree.}
+	\end{education_env}
+
+	\makecvfooter
+	{}
+	{\textsc{Ryan Whitell - Resume}}
+	{}
+
+\end{document}
