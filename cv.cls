@@ -213,7 +213,7 @@
 \newcommand\education[5]{
   \begin{minipage}[t]{\dimexpr(\linewidth) - 1.5em}
     \textbf{\textsc{#1, }}\textsc{#3, #4} \hfill \textsc{#2}\smallskip \\
-    #5 \bigskip
+    #5 \smallskip
   \end{minipage}
   \\*
 }
